@@ -7,11 +7,11 @@ function Footer() {
     <div className="footer bg-green-100 p-10">
       <footer className="flex justify-around">
         <div className="mediaSosial">
-          <h2 className="text-xl">Social Media</h2>
+          <h2 className="text-xl ml-3">Social Media</h2>
           <div className="icon flex justify-around mt-2">
-            <img src={instagram} alt="Instagram" className="w-10 h-10"/>
-            <img src={whatsapp} alt="Whatsapp" className="w-10 h-10"/>
-            <img src={youtube} alt="YouTube" className="w-10 h-10"/>
+            <a href="https://www.instagram.com/dpf.or.id?igsh=MTc4MmM1YmI2Ng=="><img src={instagram} alt="Instagram" className="w-10 h-10 "/></a>
+            <a href="https://api.whatsapp.com/send?phone=6285234567951&text=Assalamualaikum%2C%20saya%20ingin%20menunaikan%20zakat%20bisakah%20dibantu%3F"><img src={whatsapp} alt="Whatsapp" className="w-10 h-10 mr-2 ml-2 "/></a>
+            <a href="https://www.youtube.com/@dpfofficial"><img src={youtube} alt="YouTube" className="w-10 h-10"/></a>
           </div>
         </div>
       </footer>

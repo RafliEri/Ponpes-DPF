@@ -1,19 +1,24 @@
 import React from "react";
 import ponpes from "../images/Image/WhatsApp Image 2023-06-08 at 09.20.43(1).jpeg";
 import tentang from "../images/Image/WhatsApp Image 2023-06-08 at 09.20.46.jpeg";
+import tahfidz from "../images/Image/hafiz.webp"
+import adab from "../images/Image/Adab.png"
+import dirasah from "../images/Image/dirasah.png"
+import bahasa from "../images/Image/bahasa.png"
+import tik from "../images/Image/tik.png"
 
 function Main() {
   return (
     <main>
-      <div className="tagLine text-center mt-10">
+      <div className="tagLine text-center mt-0.5">
         <article className="bg-green-200 p-10 flex justify-center gap-16">
           <div className="judul">
-            <h2 className="font-semibold text-3xl mt-20">Selamat Datang di Official Website Pondok Pesantren Djalaluddin Pane</h2>
+            <h2 className="font-semibold text-3xl mt-20 ml-9">Selamat Datang di Official Website<br></br> Pondok Pesantren Djalaluddin</h2>
             <div className="button button-black mt-11">
               <a href="https://api.whatsapp.com/send?phone=6285234567951&text=Assalamualaikum%2C%20saya%20ingin%20bertanya%20seputar pondok%20bisakah%20dibantu%3F" className="default text-white bg-black rounded-full p-4">Hubungi Kami</a>
             </div>
           </div>
-          <img src={ponpes} alt="ponpes" className="max-w-lg rounded-lg"/>
+          <img src={ponpes} alt="ponpes" className="max-w-lg rounded-lg ml-20 mr-auto"/>
         </article>
       </div>
 
@@ -34,23 +39,23 @@ function Main() {
         <h2 className="text-2xl mb-6">Program Unggulan</h2>
         <section className="flex justify-center gap-4">
           <div className="fotoProgram card p-4 shadow-lg rounded-md">
-            <img src="../image/hafiz.webp" alt="tahfidz" className="featured-image rounded-lg mb-2"/>
+            <img src={tahfidz} alt="tahfidz" className="featured-image rounded-lg mb-2"/>
             <h2 className="text-xl">Tahfidz Al-Quran</h2>
           </div>
           <div className="fotoProgram card p-4 shadow-lg rounded-md">
-            <img src="../image/Adab.png" alt="adab" className="featured-image rounded-lg mb-2"/>
+            <img src={adab} alt="adab" className="featured-image rounded-lg mb-2"/>
             <h2 className="text-xl">Adab Islam</h2>
           </div>
           <div className="fotoProgram card p-4 shadow-lg rounded-md">
-            <img src="../image/dirasah.png" alt="Dirasah Islamiyah" className="featured-image rounded-lg mb-2"/>
+            <img src={dirasah} alt="Dirasah Islamiyah" className="featured-image rounded-lg mb-2"/>
             <h2 className="text-xl">Dirasah Islamiyah</h2>
           </div>
           <div className="fotoProgram card p-4 shadow-lg rounded-md">
-            <img src="../image/bahasa.png" alt="Program Bahasa Arab dan Inggris" className="featured-image rounded-lg mb-2"/>
+            <img src={bahasa} alt="Program Bahasa Arab dan Inggris" className="featured-image rounded-lg mb-2"/>
             <h2 className="text-xl">Bahasa Arab dan Inggris</h2>
           </div>
           <div className="fotoProgram card p-4 shadow-lg rounded-md">
-            <img src="../image/tik" alt="kktik" className="featured-image rounded-lg mb-2"/>
+            <img src={tik} alt="kktik" className="featured-image rounded-lg mb-2"/>
             <h2 className="text-xl">Keterampilan Keputrian dan TIK</h2>
           </div>
         </section>
