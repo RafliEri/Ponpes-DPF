@@ -50,7 +50,7 @@ function Main() {
             <h2 className="text-xl mb-4 font-semibold">
               Apa Itu Pondok Pesantren Djalaluddin?
             </h2>
-            <p className="text-lg">
+            <p className="text-lg text-justify">
               Pondok Pesantren Djalaluddin adalah pondok pesantren tahfizh dan
               adab yang berbasis sains dan teknologi. Pondok pesantren
               Djalaluddin juga mendapatkan predikat sebagai pesantren ramah anak
@@ -60,12 +60,21 @@ function Main() {
             <h2 className="text-xl mt-4 mb-4 font-semibold">
               Keunggulan Pondok Pesantren Djalaluddin
             </h2>
-            <p className="text-lg">
+            <ul className="text-lg text-left" style={{ listStyleType: 'disc' }}>
+                    <li>Pembelajaran berbasis sains dan teknologi.</li>
+                    <li>Pesantren ramah anak.</li>
+                    <li>Tenaga pendidik yang berkualitas dan tersertifikasi.</li>
+                    <li>Lingkungan
+              pesantren yang mendukung (asri dan terlindungi).</li>
+                    <li>Biaya yang
+              terjangkau.</li>
+                </ul>
+            {/* <p className="text-lg">
               - Pembelajaran berbasis sains dan teknologi.<br></br>- Pesantren ramah anak.<br></br>
               - Tenaga pendidik yang berkualitas dan tersertifikasi.<br></br>- Lingkungan
               pesantren yang mendukung (asri dan terlindungi).<br></br>- Biaya yang
               terjangkau.
-            </p>
+            </p> */}
           </div>
         </article>
       </div>
