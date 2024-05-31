@@ -7,7 +7,7 @@ function Header() {
       <nav className="p-5 flex flex-col md:flex-row justify-between items-center">
         <div className="flex items-center mb-4 md:mb-0">
           <img src={logo} alt="DPF Logo" className="max-h-14 object-cover" />
-          <h1 className="font-semibold text-lg text-green-600 ml-4">Pondok Pesantren Djalaluddin Pane</h1>
+          <h1 className="font-semibold text-lg text-green-600 ml-4">Pondok Pesantren Djalaluddin</h1>
         </div>
       </nav>
     </header>

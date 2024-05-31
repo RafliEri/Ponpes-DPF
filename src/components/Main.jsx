@@ -6,6 +6,7 @@ import adab from "../images/Image/Adab.png";
 import dirasah from "../images/Image/dirasah.png";
 import bahasa from "../images/Image/bahasa.png";
 import tik from "../images/Image/tik.png";
+import Card from "./card";
 
 function Main() {
   return (
@@ -115,16 +116,18 @@ function Main() {
 
       <div className="Pendaftaran text-center p-10">
         <article>
-          <div className="selengkapnya text-center md:text-left">
+          <div className="selengkapnya text-center md:text-center text-lg font-semibold">
             <p>
               Masya Allah ternyata banyak banget ya impact jika putra putri
-              bapak ibu bisa menjadi bagian dari Pondok Pesantren Djalaluddin
-              Pane ini,
+              bapak ibu bisa menjadi bagian dari Pondok Pesantren Djalaluddin ini,
             </p>
             <p className="mb-12">
-              yuk tunggu apalagi langsung daftar di Pondok Pesantren Djalaluddin
-              Pane
+              yuk tunggu apalagi langsung daftar di Pondok Pesantren Djalaluddin.
             </p>
+            <p className="text-xl font-bold mb-12">
+Alur Pendaftaran
+            </p>
+            <Card /><br></br><br></br>
             <div className="button button-black">
               <a
                 href="https://docs.google.com/forms/d/1_Mg4PahclKNH4CGPjrlEYS4P2sa7_idS-BG-eavd9XM/prefill"
