@@ -12,14 +12,14 @@ function Main() {
   return (
     <main>
       <div className="tagLine text-center mt-0.5">
-        <article className="bg-green-200 p-10 flex flex-col md:flex-row justify-center items-center md:items-start gap-16">
+        <article className="bg-green-200 p-10 flex flex-col md:flex-row justify-center items-center gap-16">
           <div className="judul text-center md:text-left">
             <h2 className="font-semibold text-3xl mt-10 md:mt-20 md:ml-2">
               Selamat Datang di Official Website
               <br />
               Pondok Pesantren Djalaluddin
             </h2>
-            <div className="button button-black mt-11">
+            <div className="flex justify-center mt-11">
               <a
                 href="https://api.whatsapp.com/send?phone=6285234567951&text=Assalamualaikum%2C%20saya%20ingin%20bertanya%20seputar%20pondok%20bisakah%20dibantu%3F"
                 className="default text-white bg-black rounded-full p-4"
@@ -31,7 +31,7 @@ function Main() {
           <img
             src={ponpes}
             alt="ponpes"
-            className="max-w-lg rounded-lg mt-10 md:mt-0 md:ml-20 md:mr-auto"
+            className="max-w-xs rounded-lg mt-10 md:mt-0"
           />
         </article>
       </div>
@@ -55,7 +55,8 @@ function Main() {
               adab yang berbasis sains dan teknologi. Pondok pesantren
               Djalaluddin juga mendapatkan predikat sebagai pesantren ramah anak
               yang terbebas dari bullying, kekerasan, dan pelecehan seksual.
-            </p><br></br><br></br>
+            </p>
+            <br></br><br></br>
             <h2 className="text-xl mt-4 mb-4 font-semibold">
               Keunggulan Pondok Pesantren Djalaluddin
             </h2>
@@ -125,7 +126,7 @@ function Main() {
               yuk tunggu apalagi langsung daftar di Pondok Pesantren Djalaluddin.
             </p>
             <p className="text-xl font-bold mb-12">
-Alur Pendaftaran
+              Alur Pendaftaran
             </p>
             <Card /><br></br><br></br>
             <div className="button button-black">
