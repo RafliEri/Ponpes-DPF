@@ -6,12 +6,12 @@ import logo from "../images/Icon/Logo DPF.png"
 
 function Footer() {
   return (
-    <div className="footer bg-green-100 p-10">
+    <div className="footer bg-white text-gray-800 p-10">
       <footer className="flex flex-col md:flex-row justify-around items-start md:items-center space-y-4 md:space-y-0">
         <div className="Kontak flex items-start md:items-center max-w-md">
           <img src={logo} alt="Logo" className="w-18 h-16 mr-4" />
-          <div >
-            <h2 className="text-xl font-bold mb-1">Kontak</h2>
+          <div>
+            <h2 className="text-2xl font-bold mb-1">Kontak Kami</h2>
             <p>
               Jalan Raya Puncak, Jalan Budi Luhur,
               Kampung Babakan Haji, RT 003/002,
@@ -22,7 +22,7 @@ function Footer() {
           </div>
         </div>
         <div className="mediaSosial">
-          <h2 className="text-xl font-bold mb-1">Social Media</h2>
+          <h2 className="text-2xl font-bold mb-1">Social Media</h2>
           <div className="icon flex space-x-4 mt-2">
             <a href="https://www.instagram.com/dpf.or.id?igsh=MTc4MmM1YmI2Ng==" target="_blank" rel="noopener noreferrer">
               <img src={instagram} alt="Instagram" className="w-10 h-10" />

@@ -1,17 +1,22 @@
-import React from "react";
+import React from 'react';
 import logo from "../images/Icon/Logo DPF.png";
 
-function Header() {
+const Header = () => {
   return (
-    <header className="bg-green-100">
-      <nav className="p-5 flex flex-col md:flex-row justify-between items-center">
-        <div className="flex items-center mb-4 md:mb-0">
-          <img src={logo} alt="DPF Logo" className="max-h-14 object-cover" />
-          <h1 className="font-semibold text-lg text-green-600 ml-4">Pondok Pesantren Djalaluddin</h1>
+    <header className="bg-white py-4 px-8 drop-shadow-2xl">
+      <div className="flex items-center justify-between">
+        <div className="flex items-center">
+          <img src={logo} alt="Logo" className="h-12" />
+          <div className="ml-4">
+            <h1 className="text-2xl font-bold text-gray-800 drop-shadow-lg">
+              Pondok Pesantren Putri
+            </h1>
+            <p className="text-gray-600 font-semibold">Djalaluddin Pane</p>
+          </div>
         </div>
-      </nav>
+      </div>
     </header>
   );
-}
+};
 
 export default Header;
