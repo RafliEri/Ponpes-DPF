@@ -3,8 +3,8 @@ import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
 
 // Import images
 import image1 from '../images/Image/039508000_1672714709-learning_Arabic.webp';
-import image2 from '../images/Image/WhatsApp Image 2023-06-08 at 09.20.43(1).jpeg';
-import image3 from '../images/Image/WhatsApp Image 2023-06-08 at 09.20.46.jpeg';
+// import image2 from '../images/Image/WhatsApp Image 2023-06-08 at 09.20.43(1).jpeg';
+// import image3 from '../images/Image/WhatsApp Image 2023-06-08 at 09.20.46.jpeg';
 import image4 from '../images/Image/istock-1293985170_ratio-16x9.jpg';
 
 function Slider({ slides, title }) {
@@ -58,16 +58,12 @@ function Slider({ slides, title }) {
 function Program() {
   const slides1 = [
     { src: image1 },
-    { src: image2 },
-    { src: image3 },
     { src: image4 },
   ];
 
   const slides2 = [
-    { src: image3 },
     { src: image4 },
     { src: image1 },
-    { src: image2 },
   ];
 
   return (

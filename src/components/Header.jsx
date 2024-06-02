@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
-import {NavLink} from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import logo from "../images/Icon/Logo DPF.png";
 
-function Header () {
+function Header() {
   const [showMenu, setShowMenu] = useState(false);
- 
 
   return (
     <header className="bg-white py-3 px-6 drop-shadow-2xl">
@@ -22,17 +21,17 @@ function Header () {
           <NavLink className="text-black px-6 py-2 rounded-md hover:font-bold hover:underline hover:text-blue-500 transform transition duration-300" to={"/"}>
             BERANDA
           </NavLink>
-          <NavLink className="text-black px-6 py-2 rounded-md hover:font-bold hover:underline hover:text-blue-500 transform transition duration-300" to={"Fasilitas"}>
+          <NavLink className="text-black px-6 py-2 rounded-md hover:font-bold hover:underline hover:text-blue-500 transform transition duration-300" to={"fasilitas"}>
             FASILITAS
           </NavLink>
-          <NavLink className="text-black px-6 py-2 rounded-md hover:font-bold hover:underline hover:text-blue-500 transform transition duration-300" to={"Layanan"}>
+          <NavLink className="text-black px-6 py-2 rounded-md hover:font-bold hover:underline hover:text-blue-500 transform transition duration-300" to={"layanan"}>
             LAYANAN
           </NavLink>
-          <NavLink className="text-black px-6 py-2 rounded-md hover:font-bold hover:underline hover:text-blue-500 transform transition duration-300" to={"Tentang"}>
+          <NavLink className="text-black px-6 py-2 rounded-md hover:font-bold hover:underline hover:text-blue-500 transform transition duration-300" to={"tentang"}>
             TENTANG
           </NavLink>
         </div>
-        <NavLink className="md:hidden" onClick={() => setShowMenu(!showMenu)}>
+        <button className="md:hidden" onClick={() => setShowMenu(!showMenu)}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -47,28 +46,28 @@ function Header () {
               d="M4 6h16M4 12h16M4 18h16"
             />
           </svg>
-        </NavLink>
+        </button>
       </div>
       {showMenu && (
         <nav className="md:hidden mt-4">
-          <ul className="flex flex-col space-y-2">
+          <ul className="flex flex-col items-center space-y-2">
             <li>
-              <NavLink className="text-black px-6 py-2 rounded-md shadow-md hover:font-bold hover:underline hover:text-blue-500 transform transition duration-300 w-full">
+              <NavLink className="text-black px-6 py-2 rounded-md hover:font-bold hover:underline hover:text-blue-500 transform transition duration-300 w-full text-center" to={"/"}>
                 BERANDA
               </NavLink>
             </li>
             <li>
-              <NavLink className="text-black px-6 py-2 rounded-md shadow-md hover:font-bold hover:underline hover:text-blue-500 transform transition duration-300 w-full">
+              <NavLink className="text-black px-6 py-2 rounded-md hover:font-bold hover:underline hover:text-blue-500 transform transition duration-300 w-full text-center" to={"fasilitas"}>
                 FASILITAS
               </NavLink>
             </li>
             <li>
-              <NavLink className="text-black px-6 py-2 rounded-md shadow-md hover:font-bold hover:underline hover:text-blue-500 transform transition duration-300 w-full">
+              <NavLink className="text-black px-6 py-2 rounded-md hover:font-bold hover:underline hover:text-blue-500 transform transition duration-300 w-full text-center" to={"layanan"}>
                 LAYANAN
               </NavLink>
             </li>
             <li>
-              <NavLink className="text-black px-6 py-2 rounded-md shadow-md hover:font-bold hover:underline hover:text-blue-500 transform transition duration-300 w-full">
+              <NavLink className="text-black px-6 py-2 rounded-md hover:font-bold hover:underline hover:text-blue-500 transform transition duration-300 w-full text-center" to={"tentang"}>
                 TENTANG
               </NavLink>
             </li>

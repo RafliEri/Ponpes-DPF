@@ -14,9 +14,9 @@ function App() {
       <Header/>
       <Routes>
       <Route path="/" element={<Main />} />
-      <Route path="/Fasilitas" element={<Fasilitas />} />
-      <Route path="/Layanan" element={<Layanan />} />
-      <Route path="/Tentang" element={<Tentang />} />      
+      <Route path="/fasilitas" element={<Fasilitas />} />
+      <Route path="/layanan" element={<Layanan />} />
+      <Route path="/tentang" element={<Tentang />} />      
       </Routes>
       <Footer/>
       </BrowserRouter>
