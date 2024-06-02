@@ -72,6 +72,7 @@ function Program() {
 
   return (
     <div className='max-w-[900px] w-full m-auto py-16 px-4'>
+    <p className='text-teal-700 text-center font-bold text-2xl'>Program Unggulan</p>
       <div className='flex flex-col lg:flex-row lg:justify-between'>
         <Slider slides={slides1} title="Kegiatan 1" />
         <Slider slides={slides2} title="Kegiatan 2" />

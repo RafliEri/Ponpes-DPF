@@ -14,7 +14,7 @@ function Tentang() {
             <p className="text-gray-600 font-semibold">Djalaluddin Pane</p>
           </div>
         </div>
-        <div className="container text-lg text-justify bg-white pt-4 pb-8 px-8  shadow-[3px_5px_3px_2px_#1a202c] md:pt-8 md:pb-40 md:px-20 shadow-lg rounded-lg mt-0">
+        <div className="container text-lg text-justify bg-white pt-4 pb-8 px-8 shadow-[3px_5px_3px_2px_#1a202c] md:pt-8 md:pb-40 md:px-20 shadow-lg rounded-lg mt-0">
           <p className="text-teal-600 font-semibold">
             Pondok Pesantren Djalaluddin Adalah Pondok Pesantren Tahfizh Dan Adab Yang Berbasis Sains Dan Teknologi. Pondok Pesantren Djalaluddin Juga Mendapatkan Predikat Sebagai Pesantren Ramah Anak Yang Terbebas Dari Bullying, Kekerasan, Dan Pelecehan Seksual.
           </p>
