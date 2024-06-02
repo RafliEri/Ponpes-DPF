@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
-import { RxDotFilled } from 'react-icons/rx';
 
 // Import images
 import image1 from '../images/Image/039508000_1672714709-learning_Arabic.webp';
@@ -49,7 +48,6 @@ function Slider({ slides, title }) {
             onClick={() => goToSlide(slideIndex)}
             className='text-2xl cursor-pointer'
           >
-            {/* <RxDotFilled /> */}
           </div>
         ))}
       </div>
