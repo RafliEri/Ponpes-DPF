@@ -28,10 +28,10 @@ function Footer() {
               <img src={instagram} alt="Instagram" className="w-10 h-10" />
             </a>
             <a href="https://api.whatsapp.com/send?phone=6285234567951&text=Assalamualaikum%2C%20saya%20ingin%20menunaikan%20zakat%20bisakah%20dibantu%3F" target="_blank" rel="noopener noreferrer">
-              <img src={whatsapp} alt="Whatsapp" className="w-10 h-10" />
+              <img src={whatsapp} alt="Whatsapp" className="mt-1 w-8 h-8" />
             </a>
             <a href="https://www.youtube.com/@dpfofficial" target="_blank" rel="noopener noreferrer">
-              <img src={youtube} alt="YouTube" className="w-11 h-11" />
+              <img src={youtube} alt="YouTube" className="w-10 h-10" />
             </a>
           </div>
         </div>

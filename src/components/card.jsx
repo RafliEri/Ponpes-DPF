@@ -32,8 +32,7 @@ function Card() {
         <div className="lg:hidden flex justify-center mt-4">
           <FaArrowDown size={40} className="text-green-600"/>
         </div>
-        {/* <FaArrowRight size={40} className="absolute right-[-20px] top-1/2 transform -translate-y-1/2 text-green-600 hidden lg:block"/> */}
-      </div>
+        </div>
       <div className="relative bg-green-200 hover:bg-green-300 transition-colors duration-300 rounded-lg shadow-lg p-6">
         <div className="flex items-center">
           <FaFileSignature size={60} className="text-orange-600"/>
