@@ -25,7 +25,7 @@ function Header() {
             FASILITAS
           </NavLink>
           <NavLink className="text-black px-6 py-2 rounded-md hover:font-bold hover:underline hover:text-blue-500 transform transition duration-300" to={"layanan"}>
-            LAYANAN
+            KURIKULUM PEMBELAJARAN
           </NavLink>
           <NavLink className="text-black px-6 py-2 rounded-md hover:font-bold hover:underline hover:text-blue-500 transform transition duration-300" to={"tentang"}>
             TENTANG
@@ -62,8 +62,8 @@ function Header() {
               </NavLink>
             </li>
             <li>
-              <NavLink className="text-black px-6 py-2 rounded-md hover:font-bold hover:underline hover:text-blue-500 transform transition duration-300 w-full text-center" to={"layanan"}>
-                LAYANAN
+              <NavLink className="text-black px-6 py-2 rounded-md hover:font-bold hover:underline hover:text-blue-500 transform transition duration-300 w-full text-center" to={"kurikulum"}>
+                KURIKULUM PEMBELAJARAN
               </NavLink>
             </li>
             <li>

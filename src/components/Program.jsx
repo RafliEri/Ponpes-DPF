@@ -1,80 +1,115 @@
 import React, { useState } from 'react';
-import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
+import { FaTimes } from 'react-icons/fa';
+import tahfidz from "../images/Image/hafiz.webp";
+import adab from "../images/Image/Adab.png";
+import dirasah from "../images/Image/dirasah.png";
+import bahasa from "../images/Image/bahasa.png";
+import tik from "../images/Image/tik.png";
 
-// Import images
-import image1 from '../images/Image/039508000_1672714709-learning_Arabic.webp';
-// import image2 from '../images/Image/WhatsApp Image 2023-06-08 at 09.20.43(1).jpeg';
-// import image3 from '../images/Image/WhatsApp Image 2023-06-08 at 09.20.46.jpeg';
-import image4 from '../images/Image/istock-1293985170_ratio-16x9.jpg';
+const Program = () => {
+    const [modalOpen, setModalOpen] = useState(false);
+    const [modalContent, setModalContent] = useState({ title: '', image: '', description: '' });
+  
+    const programs = [
+      {
+        src: tahfidz,
+        alt: "tahfidz",
+        title: "Tahfidz Al-Quran",
+        description: `
+          Pondok Pesantren Putri Djalaludin menggunakan metode menghafal Al Qur’an Pakistani. Metode Pakistani ini adalah aplikasi dari metode yang diterapkan di Pakistan dalam menghafal Al-Qur’an. Metode Pakistani ini terdiri dari sabaq, sabqi dan manzil. Sabaq adalah penambahan hafalan baru yang wajib disetorkan peserta didik setiap harinya. Sabqi adalah hafalan sabaq yang telah dihafal kemudian disetor kembali dalam bentuk gabungan dari beberapa sabaq yang belum mencapai 1 juz. Sedangkan manzil adalah hafalan sabqi yang telah mencapai 1 juz kemudian di setorkan kepada pengampuh halaqah masing-masing. Tujuan dari penelitian ini adalah untuk mengetahui perencanaan, pelaksanaan dan evaluasi metode pakistani pada pelajaran tahfidz Qur’an di Pondok Pesantren Putri Djalaludin. Metode pakistani ini dilakukan dengan 3 tahapan yaitu perencanaan, pelaksanaan dan evaluasi.
+          `,
+      },
 
-function Slider({ slides, title }) {
-  const [currentIndex, setCurrentIndex] = useState(0);
+      { src: dirasah, alt: "Dirasah Islamiyah", 
+        title: "Dirasah Islamiyah", 
+        description: "Dirasah Islamiyah di Pondok Pesantren Putri Djalaludin menggunakan pembelajaran berbasis ahlu sunnah wal jama’ah, yaitu pembelajaran fiqh menggunakan mazhab Syafi’i, pembelajaran Aqidah menggunakan firqah Asy’ariyah dan Maturidiyah, dan pembelajaran Adab dan Tasawuf menggunakan mazhab Imam Ghazali dan Imam Junaid AL Baghdadi. " 
+      },
 
-  const prevSlide = () => {
-    const isFirstSlide = currentIndex === 0;
-    const newIndex = isFirstSlide ? slides.length - 1 : currentIndex - 1;
-    setCurrentIndex(newIndex);
-  };
+      { src: adab, 
+        alt: "adab", 
+        title: "Adab Islam", 
+        description: "makna adab merupakan esensi dari semua sikap yang baik melalui latihan  terpuji yang membuat seseorang mencapai satu keutamaan. Sedangkan orang yang beradab adalah orang yang terhimpun sikap baik di dalam dirinya. Pendapat ini dikemukakan oleh Abu al-Qasim al-Qusyairy (w 465H) dalam kitabnya al-Risālah al-Qusyiriyah, dan dikuatkan oleh Muhammad, Ali al-Fayyumi yang disepakati Abu Zaid al-Anshari, yang  dikutip oleh Ardiyansyah. Makna adab dalam sisi ini bermakna semua nilai-nilai kebaikan yang dapat mendatangkan keutamaan dan ketenangan jiwa. Ibn al-Qayyim al-Jauziyah (w.751) menanggapi pendapat alQusyairy bahwa adab adalah aplikasi atau pengamalan akhlak yang baik, karena adab merupakan upaya aktualisasi kesempurnaan karakter dari potensi menuju aplikasi. " 
+      },
 
-  const nextSlide = () => {
-    const isLastSlide = currentIndex === slides.length - 1;
-    const newIndex = isLastSlide ? 0 : currentIndex + 1;
-    setCurrentIndex(newIndex);
-  };
+      { src: bahasa, 
+        alt: "Program Bahasa Arab dan Inggris", 
+        title: "Bahasa Arab dan Inggris", 
+        description: "Pondok Pesantren Putri Djalaludin menerapkan pembelajaran Bahasa Inggris dan Arab dalam pembelajarannya. Implementasi dari program bahasa Inggris dan Arab ini adalah santri akan diberikan mahfuzhat (kosakata bahasa Arab) dan vocabulary (Kosakata Bahasa Inggris) setiap hari sebanyak 5-10 kata. Santri wajib menghafalkannya dan mempraktekkannya di hari khusus bahasa Inggris dan Ararb. Hari khusus Bahasa Inggris dan Arab akan diadakan setiap sebulan 2 kali." 
+      },
 
-  const goToSlide = (slideIndex) => {
-    setCurrentIndex(slideIndex);
-  };
-
-  return (
-    <div className='max-w-[400px] w-full m-auto py-8 px-4 relative group'>
-      <h2 className="text-center text-xl font-bold mb-4">{title}</h2>
-      <div
-        style={{ backgroundImage: `url(${slides[currentIndex].src})` }}
-        className='w-full h-[300px] rounded-2xl bg-center bg-cover duration-500'
-      ></div>
-      {/* Left Arrow */}
-      <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
-        <BsChevronCompactLeft onClick={prevSlide} size={30} />
-      </div>
-      {/* Right Arrow */}
-      <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
-        <BsChevronCompactRight onClick={nextSlide} size={30} />
-      </div>
-      <div className='flex top-4 justify-center py-2'>
-        {slides.map((slide, slideIndex) => (
+      { src: tik, 
+        alt: "kktik", 
+        title: "Keterampilan Keputrian dan TIK", 
+        description: "Keterampilan TIK di Pondok Pesantren Putri Djalaludin akan berfokus pada teknologi AI dan aplikasi multimedia" 
+      },
+    ];
+  
+    const openModal = (program) => {
+      setModalContent(program);
+      setModalOpen(true);
+    };
+  
+    const closeModal = () => {
+      setModalOpen(false);
+    };
+  
+    const handleOverlayClick = (e) => {
+      if (e.target === e.currentTarget) {
+        closeModal();
+      }
+    };
+  
+    return (
+      <div className="program text-center bg-gradient-to-t from-orange-400 to-red-400 p-10">
+        <h2 className="text-3xl mb-8 text-white font-extrabold">Program Unggulan</h2>
+        <section className="flex flex-col md:flex-row justify-center items-center gap-6">
+          {programs.map((program, index) => (
+            <div
+              key={index}
+              className="fotoProgram bg-orange-200 card p-6 shadow-lg rounded-md cursor-pointer hover:bg-orange-300 transition transform hover:scale-105 duration-300"
+              onClick={() => openModal(program)}
+            >
+              <img
+                src={program.src}
+                alt={program.alt}
+                className="featured-image rounded-lg mb-4"
+              />
+              <h2 className="text-xl text-green-700 font-semibold">{program.title}</h2>
+            </div>
+          ))}
+        </section>
+  
+        {modalOpen && (
           <div
-            key={slideIndex}
-            onClick={() => goToSlide(slideIndex)}
-            className='text-2xl cursor-pointer'
-          >
+          className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-60 transition-opacity duration-300 z-50"
+          onClick={handleOverlayClick}
+        >
+            <div
+              className="bg-white p-6 md:p-8 rounded-lg shadow-lg relative max-w-lg w-full mx-4 max-h-[80vh] overflow-y-auto"
+              onClick={(e) => e.stopPropagation()}
+            >
+              <button
+                className="absolute top-2 right-2 text-gray-700 hover:text-gray-900 transition duration-300"
+                onClick={closeModal}
+              >
+                <FaTimes size={24} />
+              </button>
+              <img
+                src={modalContent.src}
+                alt={modalContent.alt}
+                className="featured-image rounded-lg mb-4 mx-auto"
+              />
+              <h2 className="text-2xl text-green-700 mb-4 font-bold">{modalContent.title}</h2>
+              <div className="text-gray-700 space-y-4 text-justify">
+                {modalContent.description.split('\n\n').map((paragraph, idx) => (
+                  <p key={idx} className="mb-2">{paragraph.trim()}</p>
+                ))}
+              </div>
+            </div>
           </div>
-        ))}
+        )}
       </div>
-    </div>
-  );
-}
-
-function Program() {
-  const slides1 = [
-    { src: image1 },
-    { src: image4 },
-  ];
-
-  const slides2 = [
-    { src: image4 },
-    { src: image1 },
-  ];
-
-  return (
-    <div className='max-w-[900px] w-full m-auto py-16 px-4'>
-    <p className='text-teal-700 text-center font-bold text-2xl'>Program Unggulan</p>
-      <div className='flex flex-col lg:flex-row lg:justify-between'>
-        <Slider slides={slides1} title="Kegiatan 1" />
-        <Slider slides={slides2} title="Kegiatan 2" />
-      </div>
-    </div>
-  );
-}
-
-export default Program;
+    );
+  };
+  
+  export default Program;

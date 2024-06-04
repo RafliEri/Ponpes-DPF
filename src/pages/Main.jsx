@@ -1,13 +1,9 @@
 import React from "react";
 import ponpes from "../images/Image/WhatsApp Image 2023-06-08 at 09.20.43(1).jpeg";
-// import tahfidz from "../images/Image/hafiz.webp";
-// import adab from "../images/Image/Adab.png";
-// import dirasah from "../images/Image/dirasah.png";
-// import bahasa from "../images/Image/bahasa.png";
-// import tik from "../images/Image/tik.png";
-import Card from "./card";
-import TeamList from "./TeamList";
-import Program from "./Program";
+import Card from "../components/card";
+// import TeamList from "./TeamList";
+import Program from "../components/Program";
+// import ChatBox from "../chatbot/Chatbot";
 
 function Main() {
   return (
@@ -75,7 +71,7 @@ function Main() {
           </ul>
         </div>
       </div>
-<Program />
+<Program/>
       {/* <div className="program text-center bg-orange-400 p-10">
         <h2 className="text-2xl mb-6 text-white font-bold">Program Unggulan</h2>
         <section className="flex flex-col md:flex-row justify-center items-center gap-4">
@@ -126,10 +122,8 @@ function Main() {
         </section>
       </div> */}
 
-      <div>
-        <TeamList />
-      </div>
-
+      
+{/* <ChatBox/> */}
       <div className="Pendaftaran text-center p-10 relative">
         <article>
           <div className="selengkapnya text-center md:text-center text-lg font-semibold text-white">
