@@ -85,7 +85,7 @@ const Program = () => {
           onClick={handleOverlayClick}
         >
             <div
-              className="bg-white p-6 md:p-8 rounded-lg shadow-lg relative max-w-lg w-full mx-4 max-h-[80vh] overflow-y-auto"
+              className="bg-white p-6 md:p-8 rounded-lg shadow-lg relative max-w-3xl w-full mx-4 max-h-[80vh] overflow-y-auto"
               onClick={(e) => e.stopPropagation()}
             >
               <button

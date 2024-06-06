@@ -131,7 +131,7 @@ function Main() {
               Masya Allah ternyata banyak banget ya impact jika putra putri bapak
               ibu bisa menjadi bagian dari Pondok Pesantren Djalaluddin ini,
             </p>
-            <p className="mb-12">
+            <p className="mb-12 text-2xl mt-2 font-extrabold bg-green-600 mx-auto max-w-4xl">
               Yuk tunggu apalagi langsung daftar di Pondok Pesantren Djalaluddin.
             </p>
             <p className="text-xl text-teal-600 font-bold mb-12 bg-yellow-300 mx-auto max-w-fit ">Alur Pendaftaran</p>
