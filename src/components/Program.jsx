@@ -61,7 +61,7 @@ const Program = () => {
   
     return (
       <div className="program text-center bg-gradient-to-t from-orange-400 to-red-400 p-10">
-        <h2 className="text-3xl mb-8 text-white font-extrabold">Program Unggulan</h2>
+        <h2 className="text-3xl mb-8 text-white font-extrabold">Program</h2>
         <section className="flex flex-col md:flex-row justify-center items-center gap-6">
           {programs.map((program, index) => (
             <div
