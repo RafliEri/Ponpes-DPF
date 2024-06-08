@@ -89,7 +89,7 @@ const TeamList = () => {
       >
         PEMBINA
       </motion.h1>
-      <div className="grid grid-cols-1 sm:grid-cols-4 md:grid-cols-4 gap-8">
+      <div className="flex flex-wrap justify-center gap-8">
         {teamPembina.map((member, index) => (
           <TeamMemberCard
             key={index}
@@ -108,7 +108,7 @@ const TeamList = () => {
       >
         PENASIHAT
       </motion.h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+      <div className="flex flex-wrap justify-center gap-8">
         {teamPenasihat.map((member, index) => (
           <TeamMemberCard
             key={index}
@@ -127,7 +127,7 @@ const TeamList = () => {
       >
         PENGASUH
       </motion.h1>
-      <div className="grid grid-cols-1 sm:grid-cols-4 md:grid-cols-4 gap-8 mb-12 mx-auto">
+      <div className="flex flex-wrap justify-center gap-8 mb-12">
         {teamPengasuh.map((member, index) => (
           <TeamMemberCard
             key={index}
