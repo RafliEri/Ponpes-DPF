@@ -2,14 +2,14 @@ import React from "react";
 import instagram from "../images/Icon/instagram.png";
 import whatsapp from "../images/Icon/whatsapp.png";
 import youtube from '../images/Icon/youtube.png';
-import logo from "../images/Icon/Logo DPF.png"
+import logo from "../images/Icon/Logo Ponpes.png"
 
 function Footer() {
   return (
     <div className="footer bg-white text-gray-800 p-10">
       <footer className="flex flex-col md:flex-row justify-around items-start md:items-center space-y-4 md:space-y-0">
         <div className="Kontak flex items-start md:items-center max-w-md">
-          <img src={logo} alt="Logo" className="w-18 h-16 mr-4" />
+          <img src={logo} alt="Logo" className="w-30 h-20 mr-4" />
           <div>
             <h2 className="text-2xl font-bold mb-1">Kontak Kami</h2>
             <p>
