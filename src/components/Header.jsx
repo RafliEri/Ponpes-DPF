@@ -29,20 +29,20 @@ function Header() {
           >
             BERANDA
           </NavLink>
-          {/* <NavLink 
+          <NavLink 
             className="text-black px-6 py-2 rounded-md hover:font-bold hover:underline hover:text-blue-500 transform transition duration-300" 
             to="fasilitas"
             onClick={handleNavLinkClick}
           >
             FASILITAS
           </NavLink>
-          <NavLink 
-            className="text-black px-6 py-2 rounded-md hover:font-bold hover:underline hover:text-blue-500 transform transition duration-300" 
-            to="layanan"
-            onClick={handleNavLinkClick}
-          >
-            KURIKULUM PEMBELAJARAN
-          </NavLink> */}
+          {/* <NavLink 
+          //   className="text-black px-6 py-2 rounded-md hover:font-bold hover:underline hover:text-blue-500 transform transition duration-300" 
+          //   to="layanan"
+          //   onClick={handleNavLinkClick}
+          // >
+          //   KURIKULUM PEMBELAJARAN
+          // </NavLink> */}
           <NavLink 
             className="text-black px-6 py-2 rounded-md hover:font-bold hover:underline hover:text-blue-500 transform transition duration-300" 
             to="tentang"
@@ -80,7 +80,7 @@ function Header() {
                 BERANDA
               </NavLink>
             </li>
-            {/* <li>
+          <li>
               <NavLink 
                 className="text-black px-6 py-2 rounded-md hover:font-bold hover:underline hover:text-blue-500 transform transition duration-300 w-full text-center" 
                 to="fasilitas"
@@ -89,7 +89,7 @@ function Header() {
                 FASILITAS
               </NavLink>
             </li>
-            <li>
+            {/* <li>
               <NavLink 
                 className="text-black px-6 py-2 rounded-md hover:font-bold hover:underline hover:text-blue-500 transform transition duration-300 w-full text-center" 
                 to="kurikulum"
