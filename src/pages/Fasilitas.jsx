@@ -29,7 +29,7 @@ const Fasilitas = () => {
             transition={{ duration: 0.5, delay: index * 0 }}
             >
             <img src={image.src} alt={image.alt} className="w-full h-full object-cover" />
-            <div className="absolute bottom-0 left-0 bg-black bg-opacity-50 text-white p-4 w-full">
+            <div className="absolute bottom-0 left-0 bg-black bg-opacity-50 text-white p-4 w-auto rounded-r-lg">
               <h2 className="text-xl font-bold">{image.label}</h2>
             </div>
           </motion.div>
