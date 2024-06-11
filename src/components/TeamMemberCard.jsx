@@ -13,7 +13,7 @@ const TeamMemberCard = ({ imgSrc, name, position }) => {
       animate="visible"
       variants={cardVariants}
       transition={{ duration: 0.6 }}
-      className="bg-white rounded-lg overflow-hidden p-4 w-full md:w-64 mb-4 md:mb-0 shadow-[5px_5px_rgba(0,_98,_90,_0.4),_10px_10px_rgba(0,_98,_90,_0.3),_15px_15px_rgba(0,_98,_90,_0.2),_20px_20px_rgba(0,_98,_90,_0.1),_25px_25px_rgba(0,_98,_90,_0.05)]"
+      className="bg-white rounded-lg overflow-hidden w-full md:w-64 mb-4 md:mb-0 shadow-[5px_5px_rgba(0,_98,_90,_0.4),_10px_10px_rgba(0,_98,_90,_0.3),_15px_15px_rgba(0,_98,_90,_0.2),_20px_20px_rgba(0,_98,_90,_0.1),_25px_25px_rgba(0,_98,_90,_0.05)]"
     >
       <img src={imgSrc} alt={name} className="w-full h-56 object-cover" />
       <div className="p-4">

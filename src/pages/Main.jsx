@@ -121,13 +121,13 @@ function Main() {
           transition={{ duration: 0.6, delay: 1.8 }}
           className="bg-white shadow-md rounded-lg p-4 mt-6 shadow-lg mx-auto max-w-xl mb-8"
         >
-          <h2 className="text-xl font-bold mb-2 ml-6">Visi & Misi</h2>
+          <h2 className="text-xl font-bold mb-2 text-center">VISI</h2>
+          <p className="text-lg text-center font-semibold mb-6">Mendidik Adab Membangun Peradaban</p>
+          <h2 className="text-xl font-bold mb-2 text-center">MISI</h2>
           <ul className="text-lg text-left list-disc list-inside font-semibold">
-            <li>Pembelajaran Berbasis Sains Dan Teknologi</li>
-            <li>Pesantren Ramah Anak</li>
-            <li>Tenaga Pendidik Yang Berkualitas Dan Tersertifikasi</li>
-            <li>Lingkungan Pesantren Yang Mendukung (Asri Dan Terlindungi)</li>
-            <li>Biaya Yang Terjangkau</li>
+            <li>Melaksanakan pendidikan berbasis Al Qur’an, Hadits, dan adab</li>
+            <li>Membentuk karakter santri yang berakhlak mulia, disiplin, kreatif, dan mandiri</li>
+            <li>Menerapkan sistem pembelajaran berbasis TIK</li>
           </ul>
         </motion.div>
       </div>
@@ -148,7 +148,7 @@ function Main() {
               animate="visible"
               variants={fadeInUp}
               transition={{ duration: 0.6, delay: 2.4 }}
-              className="text-xl"
+              className="text-xl mb-3"
             >
               Masya Allah ternyata banyak banget ya impact jika putra putri bapak
               ibu bisa menjadi bagian dari Pondok Pesantren Djalaluddin Pane ini,
@@ -157,7 +157,7 @@ function Main() {
             text={[
               "Yuk tunggu apalagi langsung daftar di Pondok Pesantren Putri Djalaluddin Pane."
             ]}
-              className="text-2xl mt-2 font-extrabold bg-green-600 mx-auto max-w-4xl"
+              className="text-2xl mt-2 font-extrabold mx-auto max-w-4xl"
               speed={100}
               eraseDelay={4000}
           />

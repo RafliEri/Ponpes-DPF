@@ -2,7 +2,7 @@ import React from "react";
 import instagram from "../images/Icon/instagram.png";
 import whatsapp from "../images/Icon/whatsapp.png";
 import youtube from '../images/Icon/youtube.png';
-import logo from "../images/Icon/Logo Ponpes.png"
+import logo from "../images/Icon/Logo DPF.png"
 
 function Footer() {
   return (

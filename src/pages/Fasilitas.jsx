@@ -8,7 +8,7 @@ import rb from "../images/Image/rb.jpg";
 
 const images = [
   { src: rb, alt: "Ruang Belajar", label: "Ruang Belajar" },
-  { src: mushola, alt: "Mushola", label: "Mushola" },
+  { src: mushola, alt: "Musholla", label: "Musholla" },
   { src: taman, alt: "Taman", label: "Taman" },
   { src: asrama, alt: "Asrama", label: "Asrama" },
   { src: kolam, alt: "Kolam Berenang", label: "Kolam Berenang" },
