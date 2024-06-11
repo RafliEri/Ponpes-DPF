@@ -16,7 +16,7 @@ const images = [
 
 const Fasilitas = () => {
   return (
-    <div className='bg-teal-600 pt-10 pb-10'>
+    <div className='bg-logo pt-10 pb-10'>
     <div className="container mx-auto p-4">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {images.map((image, index) => (
@@ -29,7 +29,7 @@ const Fasilitas = () => {
             transition={{ duration: 0.5, delay: index * 0 }}
             >
             <img src={image.src} alt={image.alt} className="w-full h-full object-cover" />
-            <div className="absolute bottom-0 left-0 bg-black bg-opacity-50 text-white p-4 w-auto rounded-r-lg">
+            <div className="absolute bottom-0 left-0 bg-black bg-opacity-50 text-white p-4 w-auto rounded-tr-3xl">
               <h2 className="text-xl font-bold">{image.label}</h2>
             </div>
           </motion.div>

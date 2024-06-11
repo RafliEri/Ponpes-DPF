@@ -7,10 +7,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        logo : '#00a859',
       ...colors,
       },
+      scale: {
+        '-100': '-1',
+    },
       fontFamily: {
         fjalla: ['Fjalla One', 'sans-serif'],
+        // poppins: ["Poppins", 'serif']
       },
     },
   },

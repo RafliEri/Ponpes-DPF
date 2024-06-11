@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink } from "react-router-dom";
-import logo from "../images/Icon/Logo DPF.png";
+import logo from "../images/Icon/Logo Ponpes.png";
 
 function Header() {
   const [showMenu, setShowMenu] = useState(false);
@@ -25,7 +25,7 @@ function Header() {
           <NavLink 
             className={({ isActive }) => 
               isActive 
-              ? "text-black px-6 py-2 rounded-md font-semibold  hover:font-bold hover: hover:text-blue-500 transform transition duration-300 border-b-2 border-teal-500"
+              ? "text-black px-6 py-2 rounded-md font-semibold  hover:font-bold hover: hover:text-blue-500 transform transition duration-300 border-b-2 border-pink-500"
               : "text-black px-6 py-2 rounded-md font-semibold hover:font-bold hover: hover:text-blue-500 transform transition duration-300"
             } 
             to="/" 
@@ -36,7 +36,7 @@ function Header() {
           <NavLink 
             className={({ isActive }) => 
               isActive 
-              ? "text-black px-6 py-2 rounded-md font-semibold  hover:font-bold hover: hover:text-blue-500 transform transition duration-300 border-b-2 border-teal-500"
+              ? "text-black px-6 py-2 rounded-md font-semibold  hover:font-bold hover: hover:text-blue-500 transform transition duration-300 border-b-2 border-pink-500"
               : "text-black px-6 py-2 rounded-md font-semibold hover:font-bold hover: hover:text-blue-500 transform transition duration-300"
             } 
             to="fasilitas"
@@ -47,7 +47,7 @@ function Header() {
           {/* <NavLink 
           //   className={({ isActive }) => 
           //     isActive 
-          //     ? "text-black px-6 py-2 rounded-md font-semibold  hover:font-bold hover: hover:text-blue-500 transform transition duration-300 border-b-2 border-teal-500"
+          //     ? "text-black px-6 py-2 rounded-md font-semibold  hover:font-bold hover: hover:text-blue-500 transform transition duration-300 border-b-2 border-pink-500"
           //     : "text-black px-6 py-2 rounded-md font-semibold hover:font-bold hover: hover:text-blue-500 transform transition duration-300"
           //   } 
           //   to="layanan"
@@ -58,7 +58,7 @@ function Header() {
           <NavLink 
             className={({ isActive }) => 
               isActive 
-              ? "text-black px-6 py-2 rounded-md font-semibold  hover:font-bold hover: hover:text-blue-500 transform transition duration-300 border-b-2 border-teal-500"
+              ? "text-black px-6 py-2 rounded-md font-semibold  hover:font-bold hover: hover:text-blue-500 transform transition duration-300 border-b-2 border-pink-500"
               : "text-black px-6 py-2 rounded-md font-semibold hover:font-bold hover: hover:text-blue-500 transform transition duration-300"
             } 
             to="tentang"
@@ -91,7 +91,7 @@ function Header() {
               <NavLink 
                 className={({ isActive }) => 
                   isActive 
-                  ? "text-black px-6 py-2 rounded-md font-semibold  hover:font-bold hover: hover:text-blue-500 transform transition duration-300 w-full text-center border-b-2 border-teal-500"
+                  ? "text-black px-6 py-2 rounded-md font-semibold  hover:font-bold hover: hover:text-blue-500 transform transition duration-300 w-full text-center border-b-2 border-pink-500"
                   : "text-black px-6 py-2 rounded-md font-semibold hover:font-bold hover: hover:text-blue-500 transform transition duration-300 w-full text-center"
                 } 
                 to="/" 
@@ -104,7 +104,7 @@ function Header() {
               <NavLink 
                 className={({ isActive }) => 
                   isActive 
-                  ? "text-black px-6 py-2 rounded-md font-semibold  hover:font-bold hover: hover:text-blue-500 transform transition duration-300 w-full text-center border-b-2 border-teal-500"
+                  ? "text-black px-6 py-2 rounded-md font-semibold  hover:font-bold hover: hover:text-blue-500 transform transition duration-300 w-full text-center border-b-2 border-pink-500"
                   : "text-black px-6 py-2 rounded-md font-semibold hover:font-bold hover: hover:text-blue-500 transform transition duration-300 w-full text-center"
                 } 
                 to="fasilitas"
@@ -117,7 +117,7 @@ function Header() {
               <NavLink 
                 className={({ isActive }) => 
                   isActive 
-                  ? "text-black px-6 py-2 rounded-md font-semibold  hover:font-bold hover: hover:text-blue-500 transform transition duration-300 w-full text-center border-b-2 border-teal-500"
+                  ? "text-black px-6 py-2 rounded-md font-semibold  hover:font-bold hover: hover:text-blue-500 transform transition duration-300 w-full text-center border-b-2 border-pink-500"
                   : "text-black px-6 py-2 rounded-md font-semibold hover:font-bold hover: hover:text-blue-500 transform transition duration-300 w-full text-center"
                 } 
                 to="kurikulum"
@@ -130,7 +130,7 @@ function Header() {
               <NavLink 
                 className={({ isActive }) => 
                   isActive 
-                  ? "text-black px-6 py-2 rounded-md font-semibold  hover:font-bold hover: hover:text-blue-500 transform transition duration-300 w-full text-center border-b-2 border-teal-500"
+                  ? "text-black px-6 py-2 rounded-md font-semibold  hover:font-bold hover: hover:text-blue-500 transform transition duration-300 w-full text-center border-b-2 border-pink-500"
                   : "text-black px-6 py-2 rounded-md font-semibold hover:font-bold hover: hover:text-blue-500 transform transition duration-300 w-full text-center"
                 } 
                 to="tentang"

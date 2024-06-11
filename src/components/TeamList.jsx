@@ -16,12 +16,12 @@ import image10 from "../images/team/usth. yuli.jpeg";
 const teamPembina = [
   {
     name: "Ustadzah Hj. Salbiyah Sakam Bachrum,S.Ag",
-    position: "Alumni Prodi  Pendidikan Bahasa Inggris UIN Jakarta dan Mantan pengajar di Yayasan AL Muslim, Tambun, Bekasi",
+    position: "Lulusan Pendidikan Bahasa Inggris UIN Jakarta dan Mantan pengajar di Yayasan AL Muslim, Tambun, Bekasi",
     imgSrc: image1,
   },
   {
     name: "Ustadzah Nesmiyeti Nasim, S.Ag",
-    position: "Lulusan Pondok Putri Padang Panjang dan Ketua Yayasan Rahmatan Lil Alamin, Bogor ",
+    position: "Lulusan Pondok Putri Pesantren Diniyyah Putri Padang Panjang, Lulusan STIT Diniyyah Putri, Ketua Yayasan Rahmatan Lil Alamin, Bogor ",
     imgSrc: image2,
   },
   {
@@ -31,7 +31,7 @@ const teamPembina = [
   },
   {
     name: "Ustadzah Laila Majda, S.E, M.P.D",
-    position: "Pimpinan MT Remaja Komsol",
+    position: "Lulusan Universitas Gunadharma, Kepala Sekolah SDIT Ar Rahmah Islamic School, Pimpinan MT Remaja Komsol",
     imgSrc: image4,
   },
 ];
@@ -44,7 +44,7 @@ const teamPenasihat = [
   },
   {
     name: "Ustadz Rakhmat Zailani Kiki",
-    position: "Dewan Pengawas Syari’ah Laznas DPF",
+    position: "Dewan Pengawas Syari’ah Laznas Djalaludin Pane Foundation",
     imgSrc: image6,
   },
   {
@@ -54,20 +54,20 @@ const teamPenasihat = [
   },
   {
     name: "Irfana Steviano, S.Pd., M.Ed",
-    position: "Pakar Teknologi Pendidikan dan CEO Laznas DPF ",
+    position: "Pakar Teknologi Pendidikan dan CEO Laznas Djalaludin Pane Foundation ",
     imgSrc: image8,
   },
 ];
 
 const teamPengasuh = [
   {
-    name: "Ust. Bagus Prastya, S.Ag, Al Hafizh",
-    position: "Alumni Universitas Negeri Jakarta dan Hafizh 30 Juz",
+    name: "Ustadz Bagus Prastya, S.Ag, Al Hafizh",
+    position: "Lulusan Universitas Negeri Jakarta dan Hafizh 30 Juz",
     imgSrc: image9,
   },
   {
-    name: "Ustadzah. Yuli Nur Azizah, Al Hafizhah",
-    position: "Alumni Pondok Pesantren Gema Insan Cendekia, Karawang dan Hafizhah 30 Juz",
+    name: "Ustadzah Yuli Nur Azizah, Al Hafizhah",
+    position: "Lulusan Pondok Pesantren Gema Insan Cendekia, Karawang dan Hafizhah 30 Juz",
     imgSrc: image10,
   },
 ];
@@ -79,7 +79,7 @@ const sectionVariants = {
 
 const TeamList = () => {
   return (
-    <div className="min-h-screen bg-teal-600 py-12 flex flex-col items-center ">
+    <div className="min-h-screen py-12 flex flex-col items-center ">
       <motion.h1
         initial="hidden"
         animate="visible"

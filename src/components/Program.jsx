@@ -60,13 +60,13 @@ const Program = () => {
     };
   
     return (
-      <div className="program text-center bg-gradient-to-t from-orange-400 to-red-400 p-10">
-        <h2 className="text-3xl mb-8 text-white font-extrabold">Program Unggulan</h2>
+      <div className="program text-center p-10">
+        <h2 className="text-3xl mb-8 font-extrabold">Program Unggulan</h2>
         <section className="flex flex-col md:flex-row justify-center items-center gap-6">
                 {programs.map((program, index) => (
                     <div
                         key={index}
-                        className="fotoProgram bg-orange-200 card p-6 shadow-lg rounded-md cursor-pointer hover:bg-orange-300 transition transform hover:scale-105 duration-300"
+                        className="fotoProgram bg-gray-300 card p-6 shadow-lg rounded-md cursor-pointer hover:bg-gray-400 transition transform hover:scale-105 duration-300"
                         style={{ width: '250px', height: '300px' }}
                         onClick={() => openModal(program)}
                     >
@@ -75,7 +75,7 @@ const Program = () => {
                             alt={program.alt}
                             className="featured-image rounded-lg mb-4 w-full h-40 object-cover"
                         />
-                        <h2 className="text-xl text-green-700 font-semibold">{program.title}</h2>
+                        <h2 className="text-xl font-semibold">{program.title}</h2>
                     </div>
                 ))}
             </section>

@@ -6,6 +6,7 @@ import ponpes from "../images/Image/WhatsApp Image 2023-06-08 at 09.20.43(1).jpe
 import Card from "../components/card";
 import Program from "../components/Program";
 import Typing from 'react-typing-effect';
+import flower from '../images/Icon/flower.png'
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 20 },
@@ -22,7 +23,7 @@ function Main() {
 
   return (
     <>
-      <div className="tagLine text-center mt-0.5 bg-orange-500 drop-shadow-xl">
+      <div className="tagLine text-center bg-gradient-to-t from-pink-500 to-gray-100">
         <motion.article
           initial="hidden"
           animate="visible"
@@ -36,7 +37,7 @@ function Main() {
               animate="visible"
               variants={fadeInUp}
               transition={{ duration: 0.6, delay: 0.3 }}
-              className="font-semibold font-fjalla text-3xl mt-10 drop-shadow-xl md:mt-20 md:ml-2 text-white"
+              className="font-semibold font-fjalla text-3xl mt-10 drop-shadow-xl md:mt-20 md:ml-2 "
             >
               Selamat Datang di Official Website
               <br />
@@ -45,7 +46,7 @@ function Main() {
             <div className="flex justify-center mt-10">
               <a
                 href="https://api.whatsapp.com/send?phone=6285234567951&text=Assalamualaikum%2C%20saya%20ingin%20bertanya%20seputar%20pondok%20bisakah%20dibantu%3F"
-                className="default text-white font-semibold bg-green-600 rounded-full p-4 hover:bg-green-700"
+                className="default text-white font-semibold bg-gray-900 rounded-full p-4 hover:bg-black"
               >
                 Hubungi Kami
               </a>
@@ -69,65 +70,51 @@ function Main() {
         </motion.article>
       </div>
 
-      <div className="p-4 mt-7 bg-green-500">
-        <motion.h1
-          initial="hidden"
-          animate="visible"
-          variants={fadeInUp}
-          transition={{ duration: 0.6, delay: 0.9 }}
-          className="text-2xl font-bold mb-4 text-center mt-10 text-white"
-        >
-          Tentang Pondok Pesantren Putri Djalaluddin Pane
-        </motion.h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <motion.div
-            initial="hidden"
-            animate="visible"
-            variants={fadeInUp}
-            transition={{ duration: 0.6, delay: 1.2 }}
-            className="bg-white shadow-md rounded-lg p-4 mt-6 shadow-lg max-w-xl mx-auto"
-          >
-            <h2 className="text-xl font-bold mb-2">
-              Apa Itu Pondok Pesantren Djalaluddin Pane ?
-            </h2>
-            <p className="text-justify font-semibold">
-              Pondok Pesantren Djalaluddin Pane Adalah Pondok Pesantren Tahfizh Dan
-              Adab Yang Berbasis Sains Dan Teknologi. Pondok Pesantren
-              Djalaluddin Pane Juga Mendapatkan Predikat Sebagai Pesantren Ramah Anak
-              Yang Terbebas Dari Bullying, Kekerasan, Dan Pelecehan Seksual.
-            </p>
-          </motion.div>
-          <motion.div
-            initial="hidden"
-            animate="visible"
-            variants={fadeInUp}
-            transition={{ duration: 0.6, delay: 1.5 }}
-            className="bg-white shadow-md rounded-lg p-4 mt-6 shadow-lg max-w-xl mx-auto"
-          >
-            <h2 className="text-xl font-bold mb-2 ml-6">Keunggulan</h2>
-            <ul className="text-lg text-left list-disc list-inside font-semibold">
-              <li>Pembelajaran Berbasis Sains Dan Teknologi</li>
-              <li>Pesantren Ramah Anak</li>
-              <li>Tenaga Pendidik Yang Berkualitas Dan Tersertifikasi</li>
-              <li>Lingkungan Pesantren Yang Mendukung (Asri Dan Terlindungi)</li>
-              <li>Biaya Yang Terjangkau</li>
-            </ul>
-          </motion.div>
-        </div>
+      <div className="bg-pink-500 p-4 ">
+      <motion.h1
+        initial="hidden"
+        animate="visible"
+        variants={fadeInUp}
+        transition={{ duration: 0.6, delay: 0.9 }}
+        className="text-white text-2xl font-bold mb-4 text-center mt-10 font-extrabold"
+      >
+        TENTANG PONDOK PESANTREN PUTRI DJALALUDDIN PANE
+      </motion.h1>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <motion.div
           initial="hidden"
           animate="visible"
           variants={fadeInUp}
-          transition={{ duration: 0.6, delay: 1.8 }}
-          className="bg-white shadow-md rounded-lg p-4 mt-6 shadow-lg mx-auto max-w-xl mb-8"
+          transition={{ duration: 0.6, delay: 1.2 }}
+          className="relative bg-white rounded-lg p-4 mt-6 max-w-xl mx-auto shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]"
         >
-          <h2 className="text-xl font-bold mb-2 text-center">VISI</h2>
-          <p className="text-lg text-center font-semibold mb-6">Mendidik Adab Membangun Peradaban</p>
-          <h2 className="text-xl font-bold mb-2 text-center">MISI</h2>
+          <h2 className="text-xl font-bold mb-2">
+            Apa Itu Pondok Pesantren Djalaluddin Pane?
+          </h2>
+          <p className="text-justify font-semibold">
+            Pondok Pesantren Djalaluddin Pane adalah pondok pesantren tahfizh dan adab yang berbasis sains dan teknologi. Pondok Pesantren Djalaluddin Pane juga mendapatkan predikat sebagai pesantren ramah anak yang terbebas dari bullying, kekerasan, dan pelecehan seksual.
+          </p>
+          <div className="absolute bottom-0 left-0">
+            <img src={flower} alt="Flower" className=" rounded-bl-lg w-16 h-16" />
+          </div>
+        </motion.div>
+        <motion.div
+          initial="hidden"
+          animate="visible"
+          variants={fadeInUp}
+          transition={{ duration: 0.6, delay: 1.5 }}
+          className="relative bg-white rounded-lg p-4 mt-6 max-w-xl mx-auto shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]"
+        >
+          <div className="absolute top-0 right-0">
+            <img src={flower} alt="Flower" className=" rounded-bl-lg rotate-180 w-16 h-16" />
+          </div>
+          <h2 className="font- fjalla text-xl font-bold mb-2 ml-6">Keunggulan</h2>
           <ul className="text-lg text-left list-disc list-inside font-semibold">
-            <li>Melaksanakan pendidikan berbasis Al Qur’an, Hadits, dan adab</li>
-            <li>Membentuk karakter santri yang berakhlak mulia, disiplin, kreatif, dan mandiri</li>
-            <li>Menerapkan sistem pembelajaran berbasis TIK</li>
+            <li>Pembelajaran berbasis sains dan teknologi</li>
+            <li>Pesantren ramah anak</li>
+            <li>Tenaga pendidik yang berkualitas dan tersertifikasi</li>
+            <li>Lingkungan pesantren yang mendukung (asri dan terlindungi)</li>
+            <li>Biaya yang terjangkau</li>
           </ul>
         </motion.div>
       </div>
@@ -135,14 +122,36 @@ function Main() {
         initial="hidden"
         animate="visible"
         variants={fadeInUp}
-        transition={{ duration: 0.6, delay: 2.1 }}
+        transition={{ duration: 0.6, delay: 1.8 }}
+        className="relative bg-white rounded-lg p-4 mt-6 mx-auto max-w-xl mb-8 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]"
       >
-        <Program />
+        <div className="absolute bottom-0 right-0">
+          <img src={flower} alt="Flower" className=" rounded-bl-lg transform -scale-x-100 w-16 h-16" />
+        </div>
+        <h2 className="text-xl font-bold mb-2 text-center">VISI</h2>
+        <p className="text-lg text-center font-semibold mb-6">Mendidik adab membangun peradaban</p>
+        <h2 className="text-xl font-bold mb-2 text-center">MISI</h2>
+        <ul className="text-lg text-left list-disc list-inside font-semibold">
+          <li>Melaksanakan pendidikan berbasis Al Qur’an, Hadits, dan adab</li>
+          <li>Membentuk karakter santri yang berakhlak mulia, disiplin, kreatif, dan mandiri</li>
+          <li>Menerapkan sistem pembelajaran berbasis TIK</li>
+        </ul>
       </motion.div>
+    </div>
 
-      <div className="Pendaftaran text-center p-10 relative">
+      {/* <motion.div
+        initial="hidden"
+        animate="visible"
+        variants={fadeInUp}
+        className="bg-pink-500"
+      >
+        
+      </motion.div> */}
+
+      <div className="Pendaftaran text-center p-10 relative bg-gradient-to-b from-pink-500 to-gray-100">
         <article>
-          <div className="selengkapnya text-center md:text-center text-lg font-semibold text-white">
+          <div className="selengkapnya text-center md:text-center text-lg font-semibold">
+      <Program />
             <motion.p
               initial="hidden"
               animate="visible"
@@ -166,7 +175,7 @@ function Main() {
               animate="visible"
               variants={fadeInUp}
               transition={{ duration: 0.6, delay: 3.0 }}
-              className="text-xl text-teal-600 font-bold mb-12 mt-12 bg-yellow-300 mx-auto max-w-fit"
+              className="text-xl text-logo font-bold mb-12 mt-12 bg-yellow-300 mx-auto max-w-fit"
             >
               Alur Pendaftaran
             </motion.p>
@@ -176,7 +185,7 @@ function Main() {
             <div className="button button-black">
               <a
                 href="https://docs.google.com/forms/d/1_Mg4PahclKNH4CGPjrlEYS4P2sa7_idS-BG-eavd9XM/prefill"
-                className="default text-white bg-green-600 rounded-full p-4 hover:bg-green-700"
+                className="default text-white font-semibold bg-gray-900 rounded-full p-4 hover:bg-black"
               >
                 Daftar Disini!
               </a>
