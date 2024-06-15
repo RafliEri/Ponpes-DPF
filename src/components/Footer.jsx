@@ -2,7 +2,7 @@ import React from "react";
 import instagram from "../images/Icon/instagram.png";
 import whatsapp from "../images/Icon/whatsapp.png";
 import youtube from '../images/Icon/youtube.png';
-import logo from "../images/Icon/Logo Ponpes.png"
+import logo from "../images/Icon/Logo DPF.png";
 
 function Footer() {
   return (
@@ -27,7 +27,7 @@ function Footer() {
             <a href="https://www.instagram.com/dpf.or.id?igsh=MTc4MmM1YmI2Ng==" target="_blank" rel="noopener noreferrer">
               <img src={instagram} alt="Instagram" className="w-10 h-10" />
             </a>
-            <a href="https://api.whatsapp.com/send?phone=6285234567951&text=Assalamualaikum%2C%20saya%20ingin%20menunaikan%20zakat%20bisakah%20dibantu%3F" target="_blank" rel="noopener noreferrer">
+            <a href="https://api.whatsapp.com/send?phone=6283104688084&text=Assalamualaikum%2C%20saya%20ingin%20menunaikan%20zakat%20bisakah%20dibantu%3F" target="_blank" rel="noopener noreferrer">
               <img src={whatsapp} alt="Whatsapp" className="mt-1 w-8 h-8" />
             </a>
             <a href="https://www.youtube.com/@dpfofficial" target="_blank" rel="noopener noreferrer">

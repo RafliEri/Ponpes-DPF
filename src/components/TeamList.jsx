@@ -1,3 +1,4 @@
+// TeamList.js
 import React from 'react';
 import { motion } from 'framer-motion';
 import TeamMemberCard from './TeamMemberCard';
@@ -85,7 +86,7 @@ const TeamList = () => {
         animate="visible"
         variants={sectionVariants}
         transition={{ duration: 0.6 }}
-        className="text-3xl font-bold text-white mb-8 text-center italic"
+        className="text-3xl font-bold text-pink-500 mb-8 text-center italic"
       >
         PEMBINA
       </motion.h1>
@@ -104,7 +105,7 @@ const TeamList = () => {
         animate="visible"
         variants={sectionVariants}
         transition={{ duration: 0.6, delay: 0.2 }}
-        className="text-3xl font-bold text-white mb-8 text-center mt-20 italic"
+        className="text-3xl font-bold text-pink-500 mb-8 text-center mt-20 italic"
       >
         PENASIHAT
       </motion.h1>
@@ -123,7 +124,7 @@ const TeamList = () => {
         animate="visible"
         variants={sectionVariants}
         transition={{ duration: 0.6, delay: 0.4 }}
-        className="text-3xl font-bold text-white mb-8 text-center mt-20 italic"
+        className="text-3xl font-bold text-pink-500 mb-8 text-center mt-20 italic"
       >
         PENGASUH
       </motion.h1>
