@@ -22,7 +22,7 @@ function Main() {
   const [imageLoaded, setImageLoaded] = React.useState(false);
 
   return (
-    <>
+    <div>
       <div className="text-gray-900">
         <div className="container mx-auto py-20">
           <motion.article
@@ -42,7 +42,7 @@ function Main() {
               >
                 Selamat Datang di <span className="italic"> Official Website </span>
                 <br />
-                Pondok Pesantren Putri Djalaluddin Pane
+                Pondok Pesantren Putri Djalaludin
               </motion.h2>
               <div className="mt-8">
                 <a
@@ -81,7 +81,7 @@ function Main() {
             transition={{ duration: 0.6, delay: 0.9 }}
             className="text-3xl md:text-3xl font-bold text-center mb-12 text-pink-400"
           >
-            TENTANG PONDOK PESANTREN PUTRI DJALALUDDIN PANE
+            Tentang Pondok Pesantren Putri Djalaludin
           </motion.h1>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
             <motion.div
@@ -91,9 +91,9 @@ function Main() {
               transition={{ duration: 0.6, delay: 1.2 }}
               className="bg-gray-100 rounded-lg p-8 shadow-lg relative"
             >
-              <h2 className="text-2xl font-bold mb-4">Apa Itu Pondok Pesantren Djalaluddin Pane?</h2>
+              <h2 className="text-2xl font-bold mb-4">Apa Itu Pondok Pesantren Djalaludin?</h2>
               <p className="text-lg font-medium text-gray-700">
-                Pondok Pesantren Djalaluddin Pane adalah pondok pesantren tahfizh dan adab yang berbasis sains dan teknologi. Pondok Pesantren Djalaluddin Pane juga mendapatkan predikat sebagai pesantren ramah anak yang terbebas dari bullying, kekerasan, dan pelecehan seksual.
+                Pondok Pesantren Djalaludin adalah pondok pesantren tahfizh dan adab yang berbasis sains dan teknologi. Pondok Pesantren Djalaludin juga mendapatkan predikat sebagai pesantren ramah anak yang terbebas dari bullying, kekerasan, dan pelecehan seksual.
               </p>
               <div className="absolute bottom-0 left-0">
                 <img src={flower} alt="Flower" className="rounded-bl-lg w-16 h-16" />
@@ -155,10 +155,10 @@ function Main() {
           >
             <Program />
             <p className="text-xl font-medium mt-12 mb-8 text-gray-700">
-              Masya Allah ternyata banyak banget ya impact jika putra putri bapak ibu bisa menjadi bagian dari Pondok Pesantren Djalaluddin Pane ini,
+              Masya Allah ternyata banyak banget ya impact jika putra putri bapak ibu bisa menjadi bagian dari Pondok Pesantren Djalaludin ini,
             </p>
             <Typing
-              text={["Yuk tunggu apalagi langsung daftar di Pondok Pesantren Putri Djalaluddin Pane."]}
+              text={["Yuk tunggu apalagi langsung daftar di Pondok Pesantren Putri Djalaludin."]}
               className="text-2xl font-bold text-pink-500"
               speed={100}
               eraseDelay={4000}
@@ -178,7 +178,7 @@ function Main() {
           </motion.article>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

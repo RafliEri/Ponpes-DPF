@@ -18,7 +18,7 @@ function Header() {
             <h1 className="text-xl font-bold text-gray-800 drop-shadow-lg">
               Pondok Pesantren Putri
             </h1>
-            <p className="text-gray-600 font-semibold">Djalaluddin Pane</p>
+            <p className="text-gray-600 font-semibold">Djalaludin</p>
           </div>
         </NavLink>
         <div className="hidden md:flex space-x-4">

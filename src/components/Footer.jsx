@@ -6,8 +6,8 @@ import logo from "../images/Icon/Logo DPF.png";
 
 function Footer() {
   return (
-    <div className="footer bg-white text-gray-800 p-10">
-      <footer className="flex flex-col md:flex-row justify-around items-start md:items-center space-y-4 md:space-y-0">
+    <div className="footer bg-white text-gray-800 p-10 relative">
+      <footer className="flex flex-col md:flex-row justify-around items-start md:items-center space-y-4 md:space-y-0 mb-3">
         <div className="Kontak flex items-start md:items-center max-w-md">
           <img src={logo} alt="Logo" className="w-30 h-20 mr-4" />
           <div>
@@ -36,6 +36,9 @@ function Footer() {
           </div>
         </div>
       </footer>
+      <div className="absolute bottom-2 left-4 text-gray-600 text-sm">
+        &copy; {new Date().getFullYear()} Djalaludin Pane Foundation. All rights reserved.
+      </div>
     </div>
   );
 }
