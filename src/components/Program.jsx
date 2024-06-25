@@ -75,7 +75,7 @@ const Program = () => {
               alt={program.alt}
               className="rounded-lg mb-4 w-full h-40 object-cover"
             />
-            <h2 className="text-xl font-semibold text-accent">{program.title}</h2>
+            <h2 className="text-lg font-semibold text-accent">{program.title}</h2>
           </div>
         ))}
       </section>
