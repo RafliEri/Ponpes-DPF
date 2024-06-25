@@ -155,7 +155,7 @@ function Main() {
           >
             <Program />
             <p className="text-xl font-medium mt-12 mb-8 text-gray-700">
-              Masya Allah ternyata banyak banget ya impact jika putra putri bapak ibu bisa menjadi bagian dari Pondok Pesantren Djalaludin ini,
+              Masya Allah ternyata banyak banget ya impact jika putri bapak ibu bisa menjadi bagian dari Pondok Pesantren Djalaludin ini,
             </p>
             <Typing
               text={["Yuk tunggu apalagi langsung daftar di Pondok Pesantren Putri Djalaludin."]}
