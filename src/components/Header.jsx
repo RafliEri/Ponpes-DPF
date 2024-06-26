@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink } from "react-router-dom";
-import logo from "../images/Icon/logo ponpes.png";
+import logo from "../images/Icon/Logo.png";
 
 function Header() {
   const [showMenu, setShowMenu] = useState(false);

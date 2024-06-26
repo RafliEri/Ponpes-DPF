@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import logo from "../images/Icon/logo ponpes.png";
+import logo from "../images/Icon/Logo.png";
 import TeamList from '../components/TeamList';
 
 
