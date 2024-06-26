@@ -4,15 +4,15 @@ import { motion } from 'framer-motion';
 import TeamMemberCard from './TeamMemberCard';
 
 import image1 from '../images/team/usth. salbiyah.jpeg';
-import image2 from '../images/team/usth. nesmiyeti.jpeg';
+import image2 from '../images/team/avatar.png';
 import image3 from "../images/team/usth. farah.jpeg";
 import image4 from "../images/team/usth.laila.jpeg";
 import image5 from '../images/team/k.h wahfiudin2.jpeg';
 import image6 from "../images/team/FOTO-KIKI-3.jpeg";
-import image7 from "../images/team/ustd. dedi.jpeg";
+import image7 from "../images/team/avatar.png";
 import image8 from "../images/team/irfana stefiano.jpeg";
 import image9 from "../images/team/ustd. bagus.jpeg";
-import image10 from "../images/team/usth. yuli.jpeg";
+import image10 from "../images/team/avatar.png";
 
 const teamPembina = [
   {

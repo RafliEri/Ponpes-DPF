@@ -2,7 +2,7 @@ import React from "react";
 import instagram from "../images/Icon/instagram.png";
 import whatsapp from "../images/Icon/whatsapp.png";
 import youtube from '../images/Icon/youtube.png';
-import logo from "../images/Icon/Logo DPF.png";
+import logo from "../images/Icon/logo ponpes.png";
 
 function Footer() {
   return (
@@ -17,7 +17,7 @@ function Footer() {
               Kampung Babakan Haji, RT 003/002,
               Kelurahan Cisarua, Kecamatan Cisarua,
               Kabupaten Bogor.
-            </p>
+            </p> 
             <p className="mt-1 font-semibold">Telp. +62 852 3456 7951</p>
           </div>
         </div>

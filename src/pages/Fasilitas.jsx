@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import Modal from 'react-modal';
+import { FaTimes, FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 import kolam1 from "../images/Image/kolam.jpeg";
 import mushola2 from '../images/Image/mushola1.jpg';
 import mushola1 from '../images/Image/mushola.jpeg';
@@ -81,15 +82,17 @@ const Fasilitas = () => {
         isOpen={isModalOpen}
         onRequestClose={closeModal}
         className="flex items-center justify-center"
-        overlayClassName="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center"
+        overlayClassName="fixed inset-0 bg-black bg-opacity-85 flex items-center justify-center"
         contentLabel="Image Modal"
       >
         <div className="relative w-full max-w-3xl mx-auto p-4 rounded-lg">
-          <button onClick={closeModal} className="absolute top-2 right-2 text-black font-extrabold bg-white bg-opacity-75 rounded-lg p-2">
-            &times;
+          <button onClick={closeModal} className="absolute top-2 right-2 font-extrabold bg-close bg-opacity-75 rounded-lg p-2">
+            <FaTimes size={20} />
           </button>
           <div className="flex justify-between items-center">
-            <button onClick={prevImage} className="p-3 mr-4 font-extrabold bg-white bg-opacity-75 rounded-lg">&lt;</button>
+            <button onClick={prevImage} className="p-3 mr-4 font-extrabold bg-white bg-opacity-75 rounded-lg">
+              <FaArrowLeft size={20} />
+            </button>
             <div className="w-full h-auto max-h-screen max-w-full flex items-center justify-center">
               <img
                 src={images[selectedLabelIndex].images[selectedImageIndex]}
@@ -97,7 +100,9 @@ const Fasilitas = () => {
                 className="object-cover max-w-full max-h-full"
               />
             </div>
-            <button onClick={nextImage} className="p-3 ml-4 font-extrabold bg-white bg-opacity-75 rounded-lg">&gt;</button>
+            <button onClick={nextImage} className="p-3 ml-4 font-extrabold bg-white bg-opacity-75 rounded-lg">
+              <FaArrowRight size={20} />
+            </button>
           </div>
         </div>
       </Modal>

@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Skeleton from "react-loading-skeleton";
 import 'react-loading-skeleton/dist/skeleton.css';
-import ponpes from "../images/Image/WhatsApp Image 2023-06-08 at 09.20.43(1).jpeg";
+import ponpes from "../images/Image/ponpes.png";
 import Card from "../components/card";
 import Program from "../components/Program";
 import Typing from 'react-typing-effect';
@@ -23,7 +23,7 @@ function Main() {
 
   return (
     <div>
-      <div className="text-gray-900">
+      <div className="bg-white bg-opacity-70">
         <div className="container mx-auto py-20">
           <motion.article
             initial="hidden"
@@ -46,7 +46,7 @@ function Main() {
               </motion.h2>
               <div className="mt-8">
                 <a
-                  href="https://api.whatsapp.com/send?phone=6283104688084&text=Assalamualaikum%2C%20saya%20ingin%20bertanya%20seputar%20pondok%20bisakah%20dibantu%3F"
+                  href="https://api.whatsapp.com/send?phone=6285234567951&text=Assalamualaikum%2C%20saya%20ingin%20bertanya%20seputar%20pondok%20bisakah%20dibantu%3F"
                   className="text-white font-semibold rounded-full px-8 py-4 bg-pink-500 hover:bg-pink-700 transition"
                 >
                   Hubungi Kami
